@@ -15,7 +15,7 @@ import { InputComponent } from './component/input/input.component';
     InputComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule
   ],
   providers: [],
